@@ -23,11 +23,11 @@ class StringBuilder {
   }
 }
 
-const builder = new StringBuilder(".");
+const builder = new StringBuilder('.');
 console.log(builder.getValue()); // "."
-builder.padStart("^");
+builder.padStart('^');
 console.log(builder.getValue()); // "^."
-builder.padEnd("^");
+builder.padEnd('^');
 console.log(builder.getValue()); // "^.^"
-builder.padBoth("=");
+builder.padBoth('=');
 console.log(builder.getValue()); // "=^.^="
